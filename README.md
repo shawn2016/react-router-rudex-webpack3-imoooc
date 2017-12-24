@@ -182,6 +182,46 @@ class Example {
 }
 ```
 
+router4
+
+动态路由 
+
+route
+
+link
+
+BrowserRouter，包裹整个应用
+
+Router 路由对应渲染的组件，可嵌套
+
+Link 跳转专用
+
+redirect
+
+switch 只渲染一个组件
+
+合并reducer combineReducer 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
