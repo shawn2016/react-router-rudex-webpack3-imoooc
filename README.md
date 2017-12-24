@@ -162,7 +162,25 @@ connect
 
 provide
 
+安装babel-plugin-transform-decorators-legacy
 
+```
+
+npm i babel-plugin-transform-decorators-legacy -D
+
+eg. 可以使用@快速调用方法
+
+function dec(id){
+    console.log('evaluated', id);
+    return (target, property, descriptor) => console.log('executed', id);
+}
+ 
+class Example {
+    @dec(1)
+    @dec(2)
+    method(){}
+}
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
